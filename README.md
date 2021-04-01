@@ -102,4 +102,16 @@ we will get:
 
     For that we have to use the command 'diff':
     > git diff <branch_name>   // diff bw current branch and named branch
-     
+    We will get result something like this:
+
+      diff --git a/README.md b/README.md
+      index 479bee3..c00183c 100644
+      --- a/README.md
+      +++ b/README.md
+      @@ -94,3 +94,12 @@ we will get:
+      
+[press q to get out of this]
+
+
+    
+    

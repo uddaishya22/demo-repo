@@ -112,6 +112,18 @@ we will get:
       
 [press q to get out of this]
 
+### What is PR (Pull request):
+Its a request to have your code pulled into another branch
+for eg: 
+    we have 'branching_tutorial' named branch and we want to pull the code in it into the main/master branch
+for that we have to make a PR from 'branching_tutorial' branch to the main branch
 
+Therefore, again moving to the main branch and switching the other branch OFF.
+ -> making a PR:
+    1. Go to the GitHub and select the branch from which we have to make Pull Request
+    2. Compare the branches
+    3. Give Title and descriptions
+    4. And resolve conversations if needed
+    5. Click Merge
     
     

@@ -125,5 +125,37 @@ Therefore, again moving to the main branch and switching the other branch OFF.
     3. Give Title and descriptions
     4. And resolve conversations if needed
     5. Click Merge
+
+After merging branches the featured branch can be deleted:
+> git branch -d <branch_name>
     
-    
+### Merging branches manually
+In real life merging different different branches from different different developers into the master branch is not an easy task, we gonna face merging conflicts and we need to resolve them
+
+just do it practically:
+ make a branch named quick-test:
+> git checkout -b quick-test
+> git status
+
+make some changes in index.html and compare the workflow
+> git diff
+
+> git commit -am "content updated"   // here we used add with message shortcut for modified files only
+> git push origin quick-start
+
+switch the main branch and do some changes in the index file on the same line we did in quick-test branch -> add -> commit -> push 
+Again switch to the quick-start branch and compare the versions
+>git diff main
+
+->Merging part (locally):
+> git merge main
+
+we get:
+    Auto-merging index.html
+    CONFLICT (content): Merge conflict in index.html
+    Automatic merge failed; fix conflicts and then commit the result.
+    PS C:\Users\Uddaishya\Desktop\Git Demo-rep\demo-repo> 
+
+->Ways to fix these conflicts:
+    - on the code editor
+    - on the GitHub Interface

@@ -5,9 +5,12 @@ welcome
 # 1. Change on my local m/c
 I am making a change in my system
 /* Now run git status on terminal */
+>> git status
+
 you gonna see modified keyword
 
 /* but let me make a new html file then re run git status */
+
     you will get this result :
         On branch main
     Your branch is up to date with 'origin/main'.
@@ -27,7 +30,10 @@ so we will use
 
 
 # Now run git status again
+>>git status
+
 we will get:
+
 Your branch is up to date with 'origin/main'.      
 
     Changes to be committed:
@@ -46,4 +52,5 @@ we still saved the work locally not on gitHub
 # Now the time has come to push (upload) our work on the hosted repo on GitHub
 use command: push
 >> git push
+
 if you are pushing the work for the first time you must have authenticate yourself with Git credentials

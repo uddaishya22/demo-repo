@@ -147,3 +147,15 @@ switch the main branch and do some changes in the index file on the same line we
 Again switch to the quick-start branch and compare the versions
 >git diff main
 
+->Merging part (locally):
+> git merge main
+
+we get:
+    Auto-merging index.html
+    CONFLICT (content): Merge conflict in index.html
+    Automatic merge failed; fix conflicts and then commit the result.
+    PS C:\Users\Uddaishya\Desktop\Git Demo-rep\demo-repo> 
+
+->Ways to fix these conflicts:
+    - on the code editor
+    - on the GitHub Interface

@@ -58,3 +58,5 @@ if you are pushing the work for the first time you must have authenticate yourse
  >> git push origin master
 
  defining the branch and repository where we want to push our work
+ ## Branching in Git
+ ![image](https://user-images.githubusercontent.com/52231567/113282677-e0775000-9304-11eb-8089-97ac427d41f1.png)

@@ -54,3 +54,7 @@ use command: push
 >> git push
 
 if you are pushing the work for the first time you must have authenticate yourself with Git credentials
+ we should use :
+ >> git push origin master
+
+ defining the branch and repository where we want to push our work

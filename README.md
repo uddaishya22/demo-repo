@@ -142,3 +142,8 @@ make some changes in index.html and compare the workflow
 
 > git commit -am "content updated"   // here we used add with message shortcut for modified files only
 > git push origin quick-start
+
+switch the main branch and do some changes in the index file on the same line we did in quick-test branch -> add -> commit -> push 
+Again switch to the quick-start branch and compare the versions
+>git diff main
+

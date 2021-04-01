@@ -1,4 +1,5 @@
-# demo-repo  (Feature Branch)
+
+# demo-repo (Feature)
 This repo is just for demo and declared for learning tutorials.
 welcome
 
@@ -11,7 +12,7 @@ you gonna see modified keyword
 
 /* but let me make a new html file then re run git status */
 
-you will get this result :
+    you will get this result :
         On branch main/master
     Your branch is up to date with 'origin/main'.
 
@@ -34,42 +35,39 @@ so we will use
 
 we will get:
 
-    Your branch is up to date with 'origin/main'.      
+Your branch is up to date with 'origin/main'.      
 
-        Changes to be committed:
-        (use "git restore --staged <file>..." to unstage)
-                modified:   README.md 
-                new file:   index.html
+    Changes to be committed:
+    (use "git restore --staged <file>..." to unstage)
+            modified:   README.md 
+            new file:   index.html
 
 # Now to commit the changes in the repo
 so far we have added a new index.file and now we have to save our workload
 we gonna use:
-> git commit -m "Added index.html" -m "we saved our first work successfully"
+>> git commit -m "Added index.html" -m "we saved our first work successfully"
 
 '-m' are used for giving title and description to the commit
 we still saved the work locally not on gitHub
 
 # Now the time has come to push (upload) our work on the hosted repo on GitHub
 use command: push
-> git push
+>> git push
 
 if you are pushing the work for the first time you must have authenticate yourself with Git credentials
  we should use :
- > git push origin master/main
+ >> git push origin master/main
 
  defining the branch and repository where we want to push our work
 
  ## Go to Demo-repo2 for some additional resources RE: repo from local m/c
 
  # Git Branching
-
  ## Branching in Git
  ![image](https://user-images.githubusercontent.com/52231567/113282677-e0775000-9304-11eb-8089-97ac427d41f1.png)
->>>>>>> 72e4c46f26a857f0c6e0771ef50e23da8bf2dd92
+
  
 
-
-![alt text](Git Branching.jpg)
 
  if we want to make some addititve changes in our workflow but want to keep master/main branch preserved then we can make and swtich to another branch:
  -> Feature Branch :
@@ -79,6 +77,8 @@ if you are pushing the work for the first time you must have authenticate yourse
 
 If we want to keep changes and want to implement those changes in our main/master workflow
 then we can merge the featured or Hot Fix branch to our main/master branch
+
+![Git Branching02](https://user-images.githubusercontent.com/52231567/113298913-f2afb900-9319-11eb-9146-14b08551fbdc.jpg)
 
 ### To check the branches
 use command:
@@ -93,3 +93,10 @@ we will get:
 
 -> To switch between branches:
 > git checkout <branch_name>
+
+
+## I am making some changes in this branch
+### Credits
+This tutorial article is given by Uddaishya. 
+-> Motive of this article is to give an introduction of Git and Github to the students and learners as the technology of DevOps is in demand of the software developing cycle.
+-> Students can furthur go through some advance courses based on Git and Dockers for implementing workflow for testing and automation.

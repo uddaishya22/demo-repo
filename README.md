@@ -139,3 +139,6 @@ just do it practically:
 
 make some changes in index.html and compare the workflow
 > git diff
+
+> git commit -am "content updated"   // here we used add with message shortcut for modified files only
+> git push origin quick-start

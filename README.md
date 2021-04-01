@@ -95,3 +95,4 @@ we will get:
  ## Branching in Git
  ![image](https://user-images.githubusercontent.com/52231567/113282677-e0775000-9304-11eb-8089-97ac427d41f1.png)
 >>>>>>> 72e4c46f26a857f0c6e0771ef50e23da8bf2dd92
+ 

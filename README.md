@@ -94,3 +94,12 @@ we will get:
 -> To switch between branches:
 > git checkout <branch_name>
 
+## Branching Tutorials part 2 (branch: branching_tutorial)
+### Merging two branches
+1. Locally : 
+    Before merging the branches its always better to inculcate differences in between the branches
+    i.e To get info what lines of code have been changed and compares two versions of code
+
+    For that we have to use the command 'diff':
+    > git diff <branch_name>   // diff bw current branch and named branch
+     

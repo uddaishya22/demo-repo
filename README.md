@@ -12,7 +12,7 @@ you gonna see modified keyword
 /* but let me make a new html file then re run git status */
 
     you will get this result :
-        On branch main
+        On branch main/master
     Your branch is up to date with 'origin/main'.
 
     Changes not staged for commit:
@@ -55,6 +55,37 @@ use command: push
 
 if you are pushing the work for the first time you must have authenticate yourself with Git credentials
  we should use :
- >> git push origin master
+ >> git push origin master/main
 
  defining the branch and repository where we want to push our work
+
+ ## Go to Demo-repo2 for some additional resources RE: repo from local m/c
+
+ # Git Branching
+
+![alt text](Git Branching.jpg)
+
+ if we want to make some addititve changes in our workflow but want to keep master/main branch preserved then we can make and swtich to another branch:
+ -> Feature Branch :
+    to add and test some new edits in the workflow
+ -> Hot Fix branch :
+    to eradicate some bugs from the workflow
+
+If we want to keep changes and want to implement those changes in our main/master workflow
+then we can merge the featured or Hot Fix branch to our main/master branch
+
+### To check the branches
+use command:
+> git branch
+
+### To make or switch between the branches
+-> To create a new branch we use command 'checkout':
+> git checkout -b feature01<name>
+
+we will get:
+    Switched to a new branch 'feature'
+
+-> To switch between branches:
+> git checkout <branch_name>
+
+

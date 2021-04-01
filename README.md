@@ -1,3 +1,4 @@
+
 # demo-repo
 This repo is just for demo and declared for learning tutorials.
 welcome
@@ -77,7 +78,7 @@ if you are pushing the work for the first time you must have authenticate yourse
 If we want to keep changes and want to implement those changes in our main/master workflow
 then we can merge the featured or Hot Fix branch to our main/master branch
 
-![image](Git Branching02.jpg)
+![Git Branching02](https://user-images.githubusercontent.com/52231567/113298913-f2afb900-9319-11eb-9146-14b08551fbdc.jpg)
 
 ### To check the branches
 use command:

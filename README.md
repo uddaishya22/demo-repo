@@ -1,4 +1,6 @@
-### Undoing the commits or Workflows
+## Undoing (branch: undoing)
+### reset before commiting after adding:
+
 If we added the file and not commited yet, then we can use command 'reset':
 for eg:
 > git add <file_name>
@@ -18,4 +20,6 @@ we will get:
         modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
-### Undo content
+
+
+### undo commits

@@ -1,6 +1,6 @@
 ## Undoing (branch: undoing)
 ### reset before commiting after adding:
-
+### -> undo staging
 If we added the file and not commited yet, then we can use command 'reset':
 for eg:
 > git add <file_name>

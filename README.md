@@ -1,7 +1,6 @@
-# This is independent branch temporary
-just wanna check what happens if I merge this branch into feature branch
 
-# demo-repo (Feature)
+# demo-repo  (Main Branch)
+>>>>>>> main
 This repo is just for demo and declared for learning tutorials.
 welcome
 

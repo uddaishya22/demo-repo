@@ -1,12 +1,13 @@
 
-# demo-repo  (Main Branch) 
+
+# demo-repo  (Main Branch) :
 This repo is just for demo and declared for learning tutorials.
 welcome
 
 # 1. Change on my local m/c
 I am making a change in my system
 /* Now run git status on terminal */
->> git status
+> git status
 
 you gonna see modified keyword
 
@@ -27,11 +28,11 @@ you gonna see modified keyword
 
 So, index.html is new for git and untracked so we have to add it to the acknowledgement of git
 so we will use
->> git add index.html  (or we can use add .) for all files
+> git add index.html  (or we can use add .) for all files
 
 
 # Now run git status again
->>git status
+>git status
 
 we will get:
 
@@ -45,18 +46,18 @@ Your branch is up to date with 'origin/main'.
 # Now to commit the changes in the repo
 so far we have added a new index.file and now we have to save our workload
 we gonna use:
->> git commit -m "Added index.html" -m "we saved our first work successfully"
+> git commit -m "Added index.html" -m "we saved our first work successfully"
 
 '-m' are used for giving title and description to the commit
 we still saved the work locally not on gitHub
 
 # Now the time has come to push (upload) our work on the hosted repo on GitHub
 use command: push
->> git push
+> git push
 
 if you are pushing the work for the first time you must have authenticate yourself with Git credentials
  we should use :
- >> git push origin master/main
+ > git push origin master/main
 
  defining the branch and repository where we want to push our work
 
@@ -100,25 +101,19 @@ we will get:
     Before merging the branches its always better to inculcate differences in between the branches
     i.e To get info what lines of code have been changed and compares two versions of code
 
-## I am making some changes in this branch
-### Credits
-This tutorial article is given by Uddaishya. 
--> Motive of this article is to give an introduction of Git and Github to the students and learners as the technology of DevOps is in demand of the software developing cycle.
--> Students can furthur go through some advance courses based on Git and Dockers for implementing workflow for testing and automation.
+    switch the main branch and do some changes in the index file on the same line we did in quick-test branch -> add -> commit -> push 
+    Again switch to the quick-start branch and compare the versions
+    >git diff main
 
-switch the main branch and do some changes in the index file on the same line we did in quick-test branch -> add -> commit -> push 
-Again switch to the quick-start branch and compare the versions
->git diff main
+    ->Merging part (locally):
+    > git merge main
 
-->Merging part (locally):
-> git merge main
+    we get:
+        Auto-merging index.html
+        CONFLICT (content): Merge conflict in index.html
+        Automatic merge failed; fix conflicts and then commit the result.
+        PS C:\Users\Uddaishya\Desktop\Git Demo-rep\demo-repo> 
 
-we get:
-    Auto-merging index.html
-    CONFLICT (content): Merge conflict in index.html
-    Automatic merge failed; fix conflicts and then commit the result.
-    PS C:\Users\Uddaishya\Desktop\Git Demo-rep\demo-repo> 
-
-->Ways to fix these conflicts:
-    - on the code editor
-    - on the GitHub Interface
+    ->Ways to fix these conflicts:
+        - on the code editor
+        - on the GitHub Interface

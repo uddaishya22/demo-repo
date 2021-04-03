@@ -1,5 +1,5 @@
 
-# demo-repo  (Main Branch)
+# demo-repo  (Main Branch) 
 This repo is just for demo and declared for learning tutorials.
 welcome
 
@@ -100,48 +100,11 @@ we will get:
     Before merging the branches its always better to inculcate differences in between the branches
     i.e To get info what lines of code have been changed and compares two versions of code
 
-    For that we have to use the command 'diff':
-    > git diff <branch_name>   // diff bw current branch and named branch
-    We will get result something like this:
-
-      diff --git a/README.md b/README.md
-      index 479bee3..c00183c 100644
-      --- a/README.md
-      +++ b/README.md
-      @@ -94,3 +94,12 @@ we will get:
-      
-[press q to get out of this]
-
-### What is PR (Pull request):
-Its a request to have your code pulled into another branch
-for eg: 
-    we have 'branching_tutorial' named branch and we want to pull the code in it into the main/master branch
-for that we have to make a PR from 'branching_tutorial' branch to the main branch
-
-Therefore, again moving to the main branch and switching the other branch OFF.
- -> making a PR:
-    1. Go to the GitHub and select the branch from which we have to make Pull Request
-    2. Compare the branches
-    3. Give Title and descriptions
-    4. And resolve conversations if needed
-    5. Click Merge
-
-After merging branches the featured branch can be deleted:
-> git branch -d <branch_name>
-    
-### Merging branches manually
-In real life merging different different branches from different different developers into the master branch is not an easy task, we gonna face merging conflicts and we need to resolve them
-
-just do it practically:
- make a branch named quick-test:
-> git checkout -b quick-test
-> git status
-
-make some changes in index.html and compare the workflow
-> git diff
-
-> git commit -am "content updated"   // here we used add with message shortcut for modified files only
-> git push origin quick-start
+## I am making some changes in this branch
+### Credits
+This tutorial article is given by Uddaishya. 
+-> Motive of this article is to give an introduction of Git and Github to the students and learners as the technology of DevOps is in demand of the software developing cycle.
+-> Students can furthur go through some advance courses based on Git and Dockers for implementing workflow for testing and automation.
 
 switch the main branch and do some changes in the index file on the same line we did in quick-test branch -> add -> commit -> push 
 Again switch to the quick-start branch and compare the versions

@@ -15,9 +15,9 @@ check the status again:
 > git status
 
 we will get:
-    Changes not staged for commit:
-    (use "git add <file>..." to update what will be committed)
-    (use "git restore <file>..." to discard changes in working directory)
+      Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git restore <file>..." to discard changes in working directory)
         modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -38,8 +38,8 @@ for example:
 > git reset 91bac69d261fec103f84b99b666cfe28f1f20489
 
 we will get:
-    Unstaged changes after reset:
-    M       README.md
+      Unstaged changes after reset:
+      M       README.md
 
 2. In the previous case we will be on an unstaged situation but if we want to remove all of those changes and want to revert as it was in the commit then we will be using '--hard' before commit hashing.
 

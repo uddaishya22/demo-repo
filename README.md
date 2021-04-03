@@ -1,11 +1,12 @@
 ## Undoing (branch: undoing)
 ### reset before commiting after adding:
 ### -> undo staging
+>git reset <arguement>
 If we added the file and not commited yet, then we can use command 'reset':
 for eg:
 > git add <file_name>
 > git status
-> git reset
+> git reset 
 we will get:
     Unstaged changes after reset:
     M       README.md

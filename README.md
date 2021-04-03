@@ -23,4 +23,5 @@ we will get:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 
-### undo commits
+### undo just made commit: git reset HEAD~<pointer>
+To go back to the commits lets say we wanna go back 2 or 3 commits back then we can use HEAD pointer with reset
